@@ -7,6 +7,7 @@
 """
 
 num = list(range(1,11))
+print("Original list:",num)
 old_list = num[0:5]
 print("Extracted first five elements:",old_list)
 old_list.reverse()
